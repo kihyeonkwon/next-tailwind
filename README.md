@@ -50,3 +50,12 @@ The root layout is a Server Component by default and can not be set to a Client 
 
 
 # tailwind.css
+
+utility-first.
+Bootstrap use classes that are directly related to components. 
+Tailwind uses classes as utilities to put together.
+Named according to their purpose.
+Easy to understand and remember no naming inconsistencies. 
+Very fast.
+Low level, flexible, customizable compared to bootstrap.
+Must understand CSS.
