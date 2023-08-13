@@ -5,7 +5,7 @@ export default function TailwindLayout({
 }) {
   return (
     <div>
-      <h1>Tailwind Layout</h1>
+      <h1 className="text-center">Tailwind Layout</h1>
       {children}
     </div>
   );
