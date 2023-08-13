@@ -120,6 +120,7 @@ export default function Page() {
       <div className="text-right">text right</div>
 
       <h1>Text Decoration</h1>
+
       <div className="underline decoration-4 decoration-blue-400">
         underline
       </div>
