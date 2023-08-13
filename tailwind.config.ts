@@ -8,6 +8,25 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "480px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+      },
+      colors: {
+        primary: "#ff5733",
+        secondary: "#fffc33",
+        tertiary: "#33ff57",
+        quaternary: "#33fffc",
+        quinary: "#5733ff",
+        senary: "#fc33ff",
+      },
+
       animation: {
         "spin-slow": "spin 3s linear infinite",
       },
