@@ -32,8 +32,8 @@ export default async function Page() {
         </div>
         <h1>Responsive Columns</h1>
         <div className="flex flex-wrap">
-          {images.map((image: any) => (
-            <div className=" w-full md:w-1/2 lg:w-1/3">
+          {images.map((image: any, index: number) => (
+            <div className=" w-full md:w-1/2 lg:w-1/3" key={index}>
               <div className="image-container relative m-2">
                 <img src={image.url} alt={image.title} />
                 <p className="absolute inset-0 px-2 pt-24 flex items-center justify-center  whitespace-normal">

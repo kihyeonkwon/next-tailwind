@@ -35,8 +35,8 @@ export default async function Page() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-2">
-        {images.map((image: Image) => (
-          <div className="first:col-span-2  first:row-span-2">
+        {images.map((image: Image, index: number) => (
+          <div className="first:col-span-2  first:row-span-2" key={index}>
             <img
               className="object-cover aspect-square "
               src={image.download_url}

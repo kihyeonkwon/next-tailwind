@@ -25,8 +25,8 @@ export default function Card(props: CardProps) {
       <div className="border-t border-slate-700">
         <div className="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800">
           <ul className="space-y-4 text-center">
-            {props.privileges.map((privilege) => {
-              return <li>{privilege}</li>;
+            {props.privileges.map((privilege, index) => {
+              return <li key={index}>{privilege}</li>;
             })}
           </ul>
         </div>
