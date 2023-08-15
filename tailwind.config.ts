@@ -17,6 +17,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
+        mono: ["Rokkitt", "monospace"],
       },
       colors: {
         primary: "#ff5733",
