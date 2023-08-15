@@ -26,8 +26,13 @@ export default async function Page() {
         </div>
         <h1>Responsive Columns fit to xs</h1>
         <div className="columns-xs">
-          {images.map((image: any) => (
-            <img src={image.url} alt={image.title} className="w-full" />
+          {images.map((image: any, index: number) => (
+            <img
+              src={image.url}
+              alt={image.title}
+              className="w-full"
+              key={index}
+            />
           ))}
         </div>
         <h1>Responsive Columns</h1>

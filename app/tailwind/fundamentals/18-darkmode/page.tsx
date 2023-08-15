@@ -13,8 +13,11 @@ export default async function Page() {
 
   return (
     <div className="container mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-2">
-      {data.map((item: Item) => (
-        <div className=" bg-white dark:bg-gray-800 dark:text-white shadow-lg shadow-emerald-200 px-8 py-4 my-4">
+      {data.map((item: Item, index: number) => (
+        <div
+          className=" bg-white dark:bg-gray-800 dark:text-white shadow-lg shadow-emerald-200 px-8 py-4 my-4"
+          key={index}
+        >
           <h1>{item.title}</h1>
           <h2>{item.userId}</h2>
           <p className="text-lg">{item.completed}</p>
