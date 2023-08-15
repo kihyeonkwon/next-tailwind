@@ -20,8 +20,13 @@ export default async function Page() {
       <div className="container mx-auto">
         <h1>Fixed Columns</h1>
         <div className="columns-2 gap-0">
-          {images.map((image: any) => (
-            <img src={image.url} alt={image.title} className="w-full" />
+          {images.map((image: any, index: number) => (
+            <img
+              src={image.url}
+              alt={image.title}
+              className="w-full"
+              key={index}
+            />
           ))}
         </div>
         <h1>Responsive Columns fit to xs</h1>
