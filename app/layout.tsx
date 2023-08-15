@@ -16,7 +16,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="flex items-center  justify-between space-x-5">
+          <a href="/" className="">
+            Kihyeon Kwon
+          </a>
+          <div>
+            <a href="/tailwind" className="mylink">
+              Tailwind.css
+            </a>
+            <a href="/next" className="mylink">
+              Next.js
+            </a>
+          </div>
+        </div>
+
+        {children}
+      </body>
     </html>
   );
 }

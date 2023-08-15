@@ -5,7 +5,14 @@ export default function TailwindLayout({
 }) {
   return (
     <div>
-      <h1 className="text-center">Tailwind Layout</h1>
+      <div className="flex items-center  justify-end space-x-5">
+        <a href="/tailwind/fundamentals" className="mylink">
+          fundamentals
+        </a>
+        <a href="/tailwind/mini-projects" className="mylink">
+          mini projects
+        </a>
+      </div>
       {children}
     </div>
   );
