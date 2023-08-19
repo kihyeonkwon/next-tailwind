@@ -9,7 +9,7 @@ export default function Page() {
             className="mx-auto my-16"
           />
           <h3 className="section-title">A history of everything you copy</h3>
-          <p className="max-w-3xl mx-auto mb-10 text-2xl text-grayishBlue">
+          <p className="section-content mb-10 ">
             Clipborad allows you to track and organize everything you copy.
             Instantly access your clipboard on all your devices.
           </p>
@@ -83,7 +83,7 @@ export default function Page() {
       <section id="access">
         <div className="section-container my-20">
           <h3 className="section-title">Access Clipboard Anywhere</h3>
-          <p className="max-w-3xl mx-auto mb-10 text-2xl text-grayishBlue">
+          <p className="section-content mb-10">
             Whether you’re on the go, or at your computer, you can access all
             your Clipboard snippets in a few simple clicks.
           </p>
@@ -92,6 +92,57 @@ export default function Page() {
             alt=""
             className="mx-auto"
           />
+        </div>
+      </section>
+      <section id="supercharge">
+        <div className="section-container my-20">
+          <h3 className="section-title">Supercharge your flow</h3>
+          <p className="section-content mb-16">
+            We’ve got the tools to boost your productivity.
+          </p>
+          <div className="flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-12">
+            <div className="flex flex-col items-center space-y-5">
+              <img
+                src="/landingpage/images/icon-blacklist.svg"
+                alt=""
+                className="mb-6"
+              />
+              <h5 className="mb-2 text-2xl font-bold text-darkGrayishBlue">
+                Create Blacklists
+              </h5>
+              <p className="max-w-md texy-grayishBlue">
+                Ensure sensitive information never makes its way to your
+                clipboard by excluding certain sources.
+              </p>
+            </div>
+            <div className="flex flex-col items-center space-y-5">
+              <img
+                src="/landingpage/images/icon-text.svg"
+                alt=""
+                className="mb-6"
+              />
+              <h5 className="mb-2 text-2xl font-bold text-darkGrayishBlue">
+                Plain Text Snippets
+              </h5>
+              <p className="max-w-md texy-grayishBlue">
+                Remove unwanted formatting from copied text for a consistent
+                look.
+              </p>
+            </div>
+            <div className="flex flex-col items-center space-y-5">
+              <img
+                src="/landingpage/images/icon-preview.svg"
+                alt=""
+                className="mb-6"
+              />
+              <h5 className="mb-2 text-2xl font-bold text-darkGrayishBlue">
+                Sneak Preview
+              </h5>
+              <p className="max-w-md texy-grayishBlue">
+                Quick preview of all snippets on your Clipboard for easy access.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
