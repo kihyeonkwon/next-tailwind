@@ -18,4 +18,16 @@
               before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               before:transition before:ease-in-out before:duration-300;
   }
+
+  .section-container {
+    @apply max-w-6xl mx-auto text-center px-10;
+  }
+
+  .section-title {
+    @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
+  }
+
+  .button-container {
+    @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+  }
 }

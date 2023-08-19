@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter, Mulish, Rokkitt } from "next/font/google";
+import { Inter, Mulish, Rokkitt, Bai_Jamjuree } from "next/font/google";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -12,6 +12,11 @@ const mulish = Mulish({
   weight: ["300", "400", "500", "600", "700"],
 });
 const rokkitt = Rokkitt({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
+
+const bai_jamjuree = Bai_Jamjuree({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });

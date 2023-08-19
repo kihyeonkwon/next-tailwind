@@ -16,7 +16,7 @@ const config: Config = {
         xl: "1280px",
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        sans: ["Bai Jamjuree", "Inter", "sans-serif"],
         mono: ["Rokkitt", "monospace"],
       },
       colors: {
@@ -26,6 +26,10 @@ const config: Config = {
         quaternary: "#33fffc",
         quinary: "#5733ff",
         senary: "#fc33ff",
+        strongCyan: "hsl(171, 66%, 44%)",
+        lightBlue: "hsl(233, 100%, 69%)",
+        darkGrayishBlue: "hsl(210, 10%, 33%)",
+        grayishBlue: "hsl(201, 11%, 66%)",
       },
 
       animation: {
